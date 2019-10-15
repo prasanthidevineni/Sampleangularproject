@@ -1,0 +1,22 @@
+<table>
+  <th>Id</th>
+  <th>Name</th>
+  <th>Age</th>
+  <th>Gender</th>
+  <th>MobileNumber</th>
+  <th>Action1</th>
+  <th>Action2</th>
+  <tr *ngFor="let member of people">
+    <td>{{member.id}}</td>
+    <td>{{member.name}}</td>
+    <td>{{member.age}}</td>
+    <td>{{member.gender}}</td>
+    <td>{{member.mobilenumber}}</td>
+    <td>
+      <button class="button" (click)="edit(member)">Edit</button>
+    </td>
+    <td>
+      <button class="button button4" (click)="delete(member)">Delete</button>
+    </td>
+  </tr>
+</table>
