@@ -1,6 +1,10 @@
 # Managepeople
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+This project contains basic operations like 
+List all people
+edit a person
+delete a person
 
 ## Development server
 
